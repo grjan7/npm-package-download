@@ -1,0 +1,62 @@
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+th {
+  background-color: #f0f0f0;
+}
+
+.plot {
+  width: 900px;
+  height: 400px;
+}
+
+#allpackages {
+  width: 1300px;
+  height: 600px;
+}
+
+.panel {
+  display: flex;
+  padding: 20px;
+
+}
+
+.panel>div {
+  padding: 5px;
+  justify-content: space-between;
+}
+
+.packdetails {
+  margin-left: -20px;
+  z-index: 101;
+}
+
+
+h2 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #208095;
+  padding: 20px;
+}
+
+h1 {
+  margin: 50px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td {
+  padding: 5px 10px;
+}
+
+td:nth-child(2n) {
+  text-align: right;
+}
+
+tr:last-child {
+  background-color: #032f53;
+  color: #ffffff
+}
